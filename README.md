@@ -1,4 +1,4 @@
-Fetch a user's medium posts from their RSS feed, convert it to JSON, and post to an Amazon AWS S3 Bucket.
+AWS Infrastructure to get a user's medium posts from their RSS feed, convert it to JSON, and post to an Amazon AWS S3 Bucket.
 
 ![Publish](https://github.com/Josecc/medium-posts/workflows/Publish/badge.svg)
 
@@ -35,6 +35,6 @@ The `MediumCdkConstruct` accepts the following props when initializing:
 | updateSchedule | no | 12 hours | How often to fetch the RSS, convert, and upload to s3. |
 | jsonLocation | no | 'medium/posts' | The s3 key of where to put your generated JSON. |
 
-## Details
+## CDK
 
 This is a [CDK Construct](https://docs.aws.amazon.com/cdk/latest/guide/constructs.html) meaning you need to have an AWS account configured to run. Follow [these instructions](https://docs.aws.amazon.com/cdk/latest/guide/hello_world.html) to get started.
