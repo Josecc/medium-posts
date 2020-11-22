@@ -1,4 +1,4 @@
-![Publish CDK packages](https://github.com/Josecc/medium-posts/workflows/Publish%20CDK%20packages/badge.svg)
+![Publish](https://github.com/Josecc/medium-posts/workflows/Publish/badge.svg)
 
 # JSON Medium Posts
 
