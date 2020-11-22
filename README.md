@@ -1,3 +1,5 @@
+![Publish CDK packages](https://github.com/Josecc/medium-posts/workflows/Publish%20CDK%20packages/badge.svg)
+
 # JSON Medium Posts
 
 This is all you need to stand up your own infrastructure to get medium RSS posts and transform them into JSON.
