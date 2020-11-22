@@ -19,7 +19,7 @@ export class MediumCdkConstruct extends Construct {
     });
 
     const mediumPostsFetchLambda = new Function(this, 'MediumPostsFetcher', {
-      code: Code.fromAsset('node_modules/@canahui/medium-posts/lib/mediumPostsFetcherLambda'),
+      code: Code.fromAsset('node_modules/@canahui/medium-posts/lib/mediumPostsLambda'),
       handler: 'index.handler',
       runtime: Runtime.NODEJS_12_X,
       timeout: Duration.seconds(30),
