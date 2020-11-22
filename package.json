@@ -37,7 +37,9 @@
   "repository": {
     "url": "https://github.com/Josecc/medium-posts.git"
   },
-  "keywords": [],
+  "keywords": [
+    "cdk"
+  ],
   "license": "MIT",
   "devDependencies": {
     "jsii": "^1.14.1",
