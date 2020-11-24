@@ -4,14 +4,14 @@ import { Code, Function, Runtime } from '@aws-cdk/aws-lambda';
 import { Bucket } from '@aws-cdk/aws-s3';
 import { Construct, Duration } from '@aws-cdk/core';
 
-export interface MediumPostsConstruct {
+export interface MediumCdkConstructProps {
   readonly mediumUser: string,
   readonly updateSchedule?: Schedule,
   readonly jsonLocation?: string
 }
 
 export class MediumCdkConstruct extends Construct {
-  constructor(scope: Construct, id: string, props: MediumPostsConstruct) {
+  constructor(scope: Construct, id: string, props: MediumCdkConstructProps) {
     super(scope, id);
 
     const mediumPostsBucket = new Bucket(this, 'MediumPosts', {
